@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+	<title>Test</title>
+<script src=" https://cdn.jsdelivr.net/npm/requirejs@2.3.7/require.min.js "></script>
+</head>
+<body>
+
+<div itemscope itemtype="https://schema.org/SoftwareApplication">
+	<span itemprop="name">itemscope itemtype</span>
+</div>
+
+<script type="module">
+
+import * as so from "./dist/schema-org.js";
+
+console.log(so);
+
+/*
+import { parse } from "./dist/microdata.mjs";
+
+parse(document.documentElement).then(things =>
+	{
+	things.forEach(thing =>
+		{
+		console.log(JSON.stringify(thing, null, 2));
+		});
+	});
+*/
+
+</script>
+
+</body>
+</html>

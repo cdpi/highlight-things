@@ -1,0 +1,12 @@
+{
+"compilerOptions":
+	{
+	"strict": true,
+	"strictPropertyInitialization": true,
+	"lib": ["DOM", "ES2024"],
+	"target": "ES2024",
+	"outDir": "dist"
+	},
+"include": ["modules/**/*.mts"],
+"exclude": ["schema-org/*", "temp/*"]
+}

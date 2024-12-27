@@ -1,1 +1,1 @@
-# highlight-things
+# Highlight Things
